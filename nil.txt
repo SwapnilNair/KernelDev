@@ -1,0 +1,5 @@
+sudo insmod lkm_example.ko
+sudo dmesg
+lsmod | grep “lkm_example”
+
+sudo rmmod lkm_example
